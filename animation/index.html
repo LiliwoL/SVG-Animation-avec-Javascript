@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <script src="script.js"></script>
+</head>
+<body onkeypress="moveRect(event)">
+<svg id="svg" width="700" height="300" style="background-color: aliceblue">
+    <rect id="player" x="350" y="280" width="20" height="20" style="stroke: none; fill: blue;opacity: 0.5"/>
+    <g id="noPlayerObjects" class="ennemis"></g>
+</svg>
+<button id="buttonPlay" onclick="Play()">Play</button>
+</body>
+</html>

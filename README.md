@@ -13,7 +13,7 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
 > :link: https://www.w3.org/2000/svg ← site utiliser pour la fonction de création d'ennemis en SVG.<br>
 
 ## Marche à suivre
-* Creer un dossier avec un fichier `index.html` et un auter en `sketch.js`.
+* Creer un dossier avec un fichier `index.html` et un autre en `sketch.js`.
   * monDossier
   * ├── index.html
   * └── script.js

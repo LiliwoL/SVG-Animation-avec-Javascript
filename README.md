@@ -85,6 +85,9 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
   ```
   > /!\ L'attribut `onkeypress="MoveRect(event)"` doit être présent sur le body.
   
+  Pour récupérer les inputs de l'utilisateur, j'ai utiliser l'attribut `onkeypress` de HTML5 et tester si la touche pressée est différente que la précédente.
+  Si ce test passe, j'appelle un timer qui ajoutera +/-10 à l'axe horizontal, arrêter le timer de la direction opposé et enfin, réaffecter la valeur du `x` de mon joueur avec `element.setAttributeNS`.
+  
 * Enfin, j'ai utilié une fonction de detection de collision entre SVG déjà creée par une tierse personne.<br>
   Voici le lien vers ce bout de script
   > :link:  http://www.inkfood.com/collision-detection-with-svg/

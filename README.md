@@ -42,15 +42,15 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
   let svgns = "http://www.w3.org/2000/svg"; 
   ```
   
-* Ensuite, il vous faudra une methode pour commencer la partie qui se nommera `Play()`.
+* Ensuite, il vous faudra une methode pour commencer et finir la partie qui se nommera `Play()`.
   ```javascript
   function Play() {}
   ```
-  Celle-ci sera appeller par la fonction 
+  Celle-ci sera appeller par la l'attribut `onclick` 
   ```html 
   <button id="buttonPlay" onclick="Play()">Play</button>
   ``` 
-  placer un bouton.
+  Au lancement, la fonction devra lancer le timer de création d'ennemis et 
   
 * Puis, il y aura une fonction pour creer chaque ennemis dynamiquement. Cette fonction ce nomme `CreateEnnemis`.
   ```javascript

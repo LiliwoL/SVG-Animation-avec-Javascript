@@ -1,3 +1,5 @@
+// © Tanguy Cavagna 22.03.2018
+
 // Variables globales
 let svgns = "http://www.w3.org/2000/svg"; // Site pour récuperer le code XML de W4School pour editer du SVG en WEB
 let droite = null, gauche = null;

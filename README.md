@@ -8,15 +8,15 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
 * Javascript
 * HTML
 
-## Sites visités
-> :link: <br>
-> :link:
+## Sites utils visités
+> :link: https://www.w3schools.com/graphics/svg_intro.asp<br>
+> :link: https://www.w3.org/2000/svg ← site utiliser pour la fonction de création d'ennemis en SVG.<br>
 
 ## Marche à suivre
 * Creer un dossier avec un fichier `index.html` et un auter en `sketch.js`.
   * monDossier
   * ├── index.html
-  * └── sktech.js
+  * └── script.js
   
 * Le fichier `index.html` contiendra le code suivant :<br>
   ```html
@@ -37,7 +37,7 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
   </html>
   ```
   
-* Dans le fichier `sketch.js`, la prmeière ligne à implémenter est 
+* Dans le fichier `script.js`, la première ligne à implémenter est
   ```javascript 
   let svgns = "http://www.w3.org/2000/svg"; 
   ```

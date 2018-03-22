@@ -74,6 +74,7 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
   > /!\ premièrement, cette methode doit pouvoir gerer le fait que si les ennemis se trouve plus bas que le bas de la page, il doivent    remonter tout en haut avec une position `x` aléatoire.
   
   > /!\ Deuxièmement, cette fonction doit gere le fait que seulement 12 ennemis doivent être presents sur la page.
+  
   Pour modifier les attributs du `rect` donner par le parametre de la fonction, il faudra utiliser `elements.setAttribueNS`.
   
   Après avoir fait cela, il faut ajouter le SVG à la balise `<g id="noPlayerObjects" class="ennemis"></g>` de notre page `index.html` et ajouter 1 au nombre d'ennemis.<br>
@@ -87,6 +88,7 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
 * Enfin, j'ai utilié une fonction de detection de collision entre SVG déjà creée par une tierse personne.<br>
   Voici le lien vers ce bout de script
   > :link:  http://www.inkfood.com/collision-detection-with-svg/
+  
   Cette fonction est appellé lors d'un `for` parcourant tout les ennemis présents dans la page. Ce `for` ce trouve dans la fonction 
   ```javascript
   function EnnemisDown() {}

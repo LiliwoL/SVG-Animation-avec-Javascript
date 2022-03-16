@@ -1,4 +1,4 @@
-# Animation SVG avec Javascript par Tanguy Cavagna 22.03.2018
+# Animation SVG avec Javascript
 
 Dans ce post, je vais présenter comment creer une animation avec du SVG dans une page WEB.<br>
 Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Javascript.
@@ -8,7 +8,7 @@ Pour pouvoir creer une animation avec du SVG, nous aurons besoin du language Jav
 * Javascript
 * HTML
 
-## Sites utils visités
+## Sites utiles visités
 > :link: https://www.w3schools.com/graphics/svg_intro.asp<br>
 > :link: https://www.w3.org/2000/svg ← site utiliser pour la fonction de création d'ennemis en SVG.<br>
 
